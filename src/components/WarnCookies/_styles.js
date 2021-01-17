@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ModalWarnCookies = styled.div`
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   width: 90%;
   padding: 20px 20px;
