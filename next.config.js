@@ -1,4 +1,3 @@
 module.exports = {
-  pageExtensions: ['jsx']
+  pageExtensions: ['jsx'],
 };
-
