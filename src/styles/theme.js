@@ -2,7 +2,7 @@ export default {
   colors: {
     primary: '#f0f0f0',
     txtPrimary: '#444444',
-    accent: '#283dde',
+    accent: '#1124B9',
   },
   breakpoints: {
     sm: 740,
