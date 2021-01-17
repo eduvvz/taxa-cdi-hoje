@@ -32,6 +32,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 0,
     'react/no-array-index-key': 0,
     'jsx-a11y/anchor-is-valid': 0,
+    'react/no-danger': 0,
     'react/jsx-no-target-blank': 0,
     'jsx-a11y/media-has-caption': [
       0,
