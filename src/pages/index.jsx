@@ -62,8 +62,8 @@ export default function Home({ cdi }) {
                   <Col sm={12}>
                     <PaperParagraph>
                       Por conta que o CDI é a principal taxa que os bancos usam
-                      afim de regular quanto rendem algumas aplicações.
-                      Aplicações como os famosos CDB`s.
+                      afim de regular quanto rendem algumas aplicações, como os
+                      famosos CDB`s.
                     </PaperParagraph>
                     <PaperParagraph>
                       Por tanto é seguro dizer que essa taxa representa um dos
