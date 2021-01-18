@@ -12,7 +12,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Taxa CDI hoje</title>
+        <title>Taxa CDI Hoje</title>
         <meta
           name="description"
           content="Conhecer o quanto a taxa CDI está avaliada é fundamental para quem pensa em investir em renda fixa. Descubra com a gente o quanto a taxa CDI está valendo hoje!"
