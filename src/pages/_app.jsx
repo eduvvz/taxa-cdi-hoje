@@ -14,8 +14,8 @@ function App({ Component, pageProps }) {
       <Head>
         <title>Taxa CDI hoje</title>
         <meta
-          name="Taxa CDI"
-          content="Telemedicina e medicina diagnóstica e acessível"
+          name="description"
+          content="Conhecer o quanto a taxa CDI está avaliada é fundamental para quem pensa em investir em renda fixa. Descubra com a gante o quanto a taxa CDI está valedo hoje!"
         />
       </Head>
       <GlobalStyles />
