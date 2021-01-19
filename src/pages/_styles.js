@@ -19,7 +19,7 @@ export const ImgIcon = styled.img`
   width: 100px;
 `;
 
-export const Subtitle = styled.h2`
+export const Subtitle = styled.h1`
   margin-top: 20px;
   font-weight: 500;
   color: ${(props) => props.theme.colors.txtPrimary};

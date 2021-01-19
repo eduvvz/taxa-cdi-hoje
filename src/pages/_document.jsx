@@ -58,6 +58,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
             rel="stylesheet"
           />
+          <script
+            data-ad-client="ca-pub-7037052370613478"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          />
         </Head>
         <body>
           <Main />
