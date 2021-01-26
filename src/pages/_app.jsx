@@ -20,9 +20,11 @@ function App({ Component, pageProps }) {
       </Head>
       <GlobalStyles />
       <ThemeProvider theme={theme}>
-        <Navbar />
-        <Component {...pageProps} />
-        <WarnCookies />
+        <div style={{ position: 'relative', overflow: 'hidden' }}>
+          <Navbar />
+          <Component {...pageProps} />
+          <WarnCookies />
+        </div>
       </ThemeProvider>
     </>
   );

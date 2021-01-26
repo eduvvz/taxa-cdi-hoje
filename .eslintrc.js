@@ -33,6 +33,22 @@ module.exports = {
     'react/no-array-index-key': 0,
     'jsx-a11y/anchor-is-valid': 0,
     'react/no-danger': 0,
+    'jsx-a11y/label-has-associated-control': [
+      'error',
+      {
+        required: {
+          some: ['nesting', 'id'],
+        },
+      },
+    ],
+    'jsx-a11y/label-has-for': [
+      'error',
+      {
+        required: {
+          some: ['nesting', 'id'],
+        },
+      },
+    ],
     'react/jsx-no-target-blank': 0,
     'jsx-a11y/media-has-caption': [
       0,

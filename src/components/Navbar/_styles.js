@@ -7,6 +7,7 @@ export const Navbar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 `;
 
 export const Title = styled.a`
@@ -22,6 +23,11 @@ export const WrapperLinks = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 10px;
+
+  @media (max-width: ${(props) => props.theme.breakpoints.md}px) {
+    padding: 0px 20px;
+  }
 `;
 
 export const Link = styled.a`
@@ -34,4 +40,23 @@ export const Link = styled.a`
   &:hover {
     color ${(props) => props.theme.colors.accent};
   }
+`;
+
+export const MobileMenu = styled.div`
+  width: 75vw;
+  height: calc(100% - 61px);
+  background-color: ${(props) => props.theme.colors.secondary};
+  position: absolute;
+  top: 61px;
+  right: ${(props) => (props.show ? '0' : '-75vw')};
+  z-index: 1;
+  transition: 0.5s;
+`;
+
+export const MbMenuLink = styled.a`
+  height: 61px;
+  border-bottom: 1px solid ${(props) => props.theme.colors.primary};
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
 `;
