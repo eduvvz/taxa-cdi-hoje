@@ -32,7 +32,7 @@ export default function Navbar() {
           <div>
             <Hidden xs sm md>
               <Link href="/calculadora-de-investimentos">
-                <SLink>Calculadora de Ivestimentos</SLink>
+                <SLink>Calculadora de Investimentos</SLink>
               </Link>
             </Hidden>
             <Hidden lg xl xxl>
