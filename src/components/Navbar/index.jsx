@@ -32,7 +32,7 @@ export default function Navbar() {
           <div>
             <Hidden xs sm md>
               <Link href="/calculadora-de-investimentos">
-                <SLink>Calculadora de CDB</SLink>
+                <SLink>Calculadora de Ivestimentos</SLink>
               </Link>
             </Hidden>
             <Hidden lg xl xxl>
@@ -55,7 +55,7 @@ export default function Navbar() {
               setShowMenu(false);
             }}
           >
-            <SLink>Calculadora de CDB</SLink>
+            <SLink>Calculadora de Investimentos</SLink>
           </MbMenuLink>
         </MobileMenu>
       </ClickAwayListener>
