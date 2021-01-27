@@ -62,3 +62,23 @@ export const PaperParagraph = styled.p`
   color: ${(props) => props.theme.colors.txtPrimary};
   margin-bottom: 10px;
 `;
+
+export const Table = styled.table`
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+
+  & th {
+    background-color: #ddd;
+  }
+
+  & td,
+  th {
+    border: 1px solid #ddd;
+    padding: 16px 8px;
+  }
+
+  & tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+`;
