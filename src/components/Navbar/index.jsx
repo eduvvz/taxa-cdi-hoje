@@ -25,9 +25,9 @@ export default function Navbar() {
       <SNavbar>
         <WrapperLinks>
           <Link href="/">
-            <a>
+            <SLink>
               <Title>CDI Hoje</Title>
-            </a>
+            </SLink>
           </Link>
           <div>
             <Hidden xs sm md>
