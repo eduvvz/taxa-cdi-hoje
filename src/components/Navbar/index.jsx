@@ -24,11 +24,11 @@ export default function Navbar() {
     <>
       <SNavbar>
         <WrapperLinks>
-          <Link href="/">
+          <a href="/">
             <SLink>
               <Title>CDI Hoje</Title>
             </SLink>
-          </Link>
+          </a>
           <div>
             <Hidden xs sm md>
               <Link href="/calculadora-de-investimentos">
