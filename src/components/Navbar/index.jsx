@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import { Hidden } from 'react-grid-system';
@@ -31,9 +30,9 @@ export default function Navbar() {
           </a>
           <div>
             <Hidden xs sm md>
-              <Link href="/calculadora-de-investimentos">
+              <a href="/calculadora-de-investimentos">
                 <SLink>Calculadora de Investimentos</SLink>
-              </Link>
+              </a>
             </Hidden>
             <Hidden lg xl xxl>
               <div onClick={() => setShowMenu(!showMenu)}>
